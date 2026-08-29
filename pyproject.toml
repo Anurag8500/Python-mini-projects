@@ -1,0 +1,6 @@
+[project]
+name = "python-mini-projects"
+version = "0.1.0"
+description = "A structured journey through Python using progressively challenging projects."
+requires-python = ">=3.11"
+dependencies = []
