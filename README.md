@@ -928,11 +928,11 @@ The actual goal is to develop the **knowledge, problem-solving ability, engineer
 ### Completed
 
 * [x] Personal Finance Analyzer
+* [x] Student Performance Analyzer
+* [x] Inventory & Billing System
 
 ### Next
 
-* [ ] Student Performance Analyzer
-* [ ] Inventory & Billing System
 * [ ] CLI Quiz Engine
 * [ ] Bank Account Simulator
 * [ ] Text Analyzer
