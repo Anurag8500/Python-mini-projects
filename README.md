@@ -1,10 +1,33 @@
-# Python Mini Projects
+# 🐍 Python Mini Projects
 
 A structured, project-based journey through Python — starting from core programming concepts and progressively moving toward advanced Python, backend development, concurrency, and production-style systems.
 
 This repository is not a collection of random coding exercises.
 
 The goal is to **learn Python by building increasingly meaningful projects**, while continuously improving programming fundamentals, problem-solving ability, software design, and real-world development skills.
+
+---
+
+## 📊 Current Progress Overview
+
+| Phase | Status | Completed / Total | Focus |
+| :--- | :--- | :--- | :--- |
+| **01 — Python Core** | ✅ Completed | 8 / 8 | Basic syntax, control flow, data structures |
+| **02 — Data & Logic** | ✅ Completed | 9 / 9 | Algorithms, state, graph traversal, search |
+| **03 — Functions & Design** | ⏳ In Progress | 1 / 9 | Modular code, separation of concerns |
+| **04 — Files & Data Processing** | 📅 Upcoming | 0 / 10 | File I/O, JSON, CSV, data pipelines |
+| **05 — OOP & Domain Modeling** | 📅 Upcoming | 0 / 9 | Classes, inheritance, domain models |
+| **06 — Python Tooling** | 📅 Upcoming | 0 / 8 | Virtual envs, packaging, logging, CLI |
+| **07 — Networking & APIs** | 📅 Upcoming | 0 / 10 | REST APIs, HTTP, web scraping |
+| **08 — Databases & Persistence** | 📅 Upcoming | 0 / 9 | SQLite, SQL, ORM, data persistence |
+| **09 — Testing & Quality** | 📅 Upcoming | 0 / 7 | pytest, unit testing, refactoring |
+| **10 — Backend Development** | 📅 Upcoming | 0 / 11 | FastAPI, authentication, CRUD backend |
+| **11 — Advanced Python** | 📅 Upcoming | 0 / 11 | Generators, decorators, context managers |
+| **12 — Concurrency & Async** | 📅 Upcoming | 0 / 10 | asyncio, threading, multiprocessing |
+| **13 — Production Engineering** | 📅 Upcoming | 0 / 10 | System architecture, Docker, background jobs |
+| **14 — Capstone Projects** | 📅 Upcoming | 0 / TBD | Substantial original software |
+
+**Total Projects Completed:** `18 / 110+`
 
 ---
 
@@ -73,7 +96,6 @@ python-mini-projects/
 ├── 11-advanced-python/
 ├── 12-concurrency-and-async/
 ├── 13-production-engineering/
-│
 ├── 14-capstone-projects/
 │
 ├── _experiments/
@@ -86,555 +108,325 @@ The progression is intentional: later stages depend on concepts and skills devel
 
 ---
 
+# ⚡ Quick Start / How to Run
+
+To run any of the completed projects:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Anurag8500/Python-mini-projects.git
+   cd Python-mini-projects
+   ```
+
+2. **Run a project directly with Python (3.11+):**
+   ```bash
+   python 01-python-core/01-personal-finance-analyzer/main.py
+   ```
+   or
+   ```bash
+   python 02-data-and-logic/17-mini-library-management-system/main.py
+   ```
+   or
+   ```bash
+   python 03-functions-and-design/18-modular-expense-tracker/main.py
+   ```
+
+---
+
 # 🗺️ Curriculum Roadmap
 
-## 01 — Python Core
+## 01 — Python Core (Completed ✅)
 
 **Goal:** Build strong Python fundamentals through useful programs.
 
 Topics include:
-
-* Variables and data types
-* Strings
-* User input
-* Type conversion
-* Conditions
-* Loops
-* Lists
-* Tuples
-* Dictionaries
-* Sets
-* Basic data processing
-* Built-in functions
-* String and collection methods
-* Formatted output
+* Variables and data types, Strings, User input, Type conversion
+* Conditions, Loops, Lists, Tuples, Dictionaries, Sets
+* Built-in functions, String and collection methods, Formatted output
 
 ### Projects
 
-* Personal Finance Analyzer
-* Student Performance Analyzer
-* Inventory & Billing System
-* CLI Quiz Engine
-* Bank Account Simulator
-* Text Analyzer
-* Mini Task Manager
-* Terminal Productivity Suite
+* [x] [01 — Personal Finance Analyzer](01-python-core/01-personal-finance-analyzer) — Income/expense logging, summary statistics, savings rate calculation
+* [x] [02 — Student Performance Analyzer](01-python-core/02-student-performance-analyzer) — Grade tracking, subject averages, GPA calculation, pass/fail status
+* [x] [03 — Inventory & Billing System](01-python-core/03-inventory-and-billing-system) — Product catalog, stock updates, shopping cart, automated receipt generation
+* [x] [04 — CLI Quiz Engine](01-python-core/04-cli-quiz-engine) — Multiple choice questions, immediate feedback, scoring system, detailed summary
+* [x] [05 — Bank Account Simulator](01-python-core/05-bank-account-simulator) — Account creation, deposits/withdrawals, balance checks, transaction history log
+* [x] [06 — Text Analyzer](01-python-core/06-text-analyzer) — Word/character count, frequency analysis, reading time estimation, basic sentiment checks
+* [x] [07 — Mini Task Manager](01-python-core/07-mini-task-manager) — Task creation, priority tagging, completion tracking, list filtering
+* [x] [08 — Terminal Productivity Suite](01-python-core/08-terminal-productivity-suite) **(Milestone 01)** — Integrated suite combining tasks, notes, habits, and time management
 
-### Milestone
+### Milestone 01
 
-**Terminal Productivity Suite**
-
-This stage should establish a strong understanding of Python's core language before moving into more complex application design.
+🎉 **[08 — Terminal Productivity Suite](01-python-core/08-terminal-productivity-suite)** (Completed)
 
 ---
 
-# 02 — Data and Logic
+## 02 — Data and Logic (Completed ✅)
 
 **Goal:** Improve problem-solving ability and learn how to represent and manipulate structured information.
 
 Topics include:
-
-* Advanced list/dictionary usage
-* Searching
-* Filtering
-* Sorting
-* Aggregation
-* Nested data
-* Data modeling
-* Basic algorithms
-* Graph concepts
-* BFS / DFS
-* State management
+* Advanced list/dictionary usage, Searching, Filtering, Sorting, Aggregation
+* Nested data, Data modeling, Basic algorithms, Graph concepts (BFS / DFS), State management
 
 ### Projects
 
-* Contact Management System
-* Inventory Analytics Engine
-* Expense Categorization Engine
-* Document Analyzer
-* Student Records & Ranking System
-* Event Registration Manager
-* Graph / Route Explorer
-* Search & Filtering Engine
-* Library Management System
+* [x] [09 — Contact Management System](02-data-and-logic/09-contact-management-system) — Phonebook lookup, multi-field search, tag filtering, contact exporting
+* [x] [10 — Inventory Analytics Engine](02-data-and-logic/10-inventory-analytics-engine) — Low-stock alerts, category aggregation, price re-indexing, profit estimation
+* [x] [11 — Expense Categorization Engine](02-data-and-logic/11-expense-categorization-engine) — Rule-based categorization, spending breakdown by tag/month, budget threshold warnings
+* [x] [12 — Document Analyzer](02-data-and-logic/12-document-analyzer) — Keyword indexing, word cloud simulation, readability score, stop-word filtering
+* [x] [13 — Student Records & Ranking System](02-data-and-logic/13-student-records-ranking-system) — Multi-attribute sorting, grade percentile rank, top performers filter, report generation
+* [x] [14 — Event Registration Manager](02-data-and-logic/14-event-registration-manager) — Capacity tracking, waitlist queue handling, duplicate registration prevention, attendee search
+* [x] [15 — Graph / Route Explorer](02-data-and-logic/15-graph-route-explorer) — City network graph modeling, shortest path discovery, connection validation, BFS/DFS traversal
+* [x] [16 — Search & Filtering Engine](02-data-and-logic/16-search-filtering-engine) — Multi-criteria search, fuzzy string matching, pagination, dynamic query filtering
+* [x] [17 — Mini Library Management System](02-data-and-logic/17-mini-library-management-system) **(Milestone 02)** — Complete book checkout/return engine, borrower records, fine calculation, availability indexing
 
-### Milestone
+### Milestone 02
 
-**Mini Library Management System**
+🎉 **[17 — Mini Library Management System](02-data-and-logic/17-mini-library-management-system)** (Completed)
 
 ---
 
-# 03 — Functions and Program Design
+## 03 — Functions and Program Design (In Progress ⏳)
 
 **Goal:** Move from writing scripts to designing reusable programs.
 
 Topics include:
-
-* Functions
-* Parameters
-* Return values
-* Scope
-* Reusability
-* Modules
-* Separation of concerns
-* Program decomposition
-* Basic architecture
-* Command routing
+* Functions, Parameters, Return values, Scope, Reusability
+* Modules, Separation of concerns, Program decomposition, Basic architecture, Command routing
 
 ### Projects
 
-* Modular Expense Tracker
-* Validation Toolkit
-* Text Processing Toolkit
-* File Utility Toolkit
-* CLI Command Router
-* Configuration Manager
-* Reporting Engine
-* Refactor an Earlier Project
-* Personal Productivity CLI
+* [x] [18 — Modular Expense Tracker](03-functions-and-design/18-modular-expense-tracker) — Modular CLI expense tracker built with clean function decomposition and decoupled helper modules
+* [ ] 19 — Validation Toolkit
+* [ ] 20 — Text Processing Toolkit
+* [ ] 21 — File Utility Toolkit
+* [ ] 22 — CLI Command Router
+* [ ] 23 — Configuration Manager
+* [ ] 24 — Reporting Engine
+* [ ] 25 — Refactor an Earlier Project
+* [ ] 26 — Personal Productivity CLI **(Milestone 03)**
 
-### Milestone
+### Milestone 03
 
-**Personal Productivity CLI**
-
-The focus here is learning how to break larger problems into smaller, understandable components.
+🎯 **Personal Productivity CLI** (Upcoming)
 
 ---
 
-# 04 — Files and Data Processing
+## 04 — Files and Data Processing
 
 **Goal:** Make applications work with persistent and real-world data.
 
-Topics include:
-
-* File I/O
-* `pathlib`
-* JSON
-* CSV
-* Serialization
-* Data cleaning
-* Data transformation
-* File metadata
-* Directory traversal
-* Logging basics
-* Data pipelines
+Topics include: File I/O, `pathlib`, JSON, CSV, Serialization, Data cleaning, Logging, Data pipelines.
 
 ### Projects
 
-* CSV Data Analyzer
-* JSON Data Management System
-* Log File Analyzer
-* Directory Organizer
-* Duplicate File Detector
-* Automatic Backup Tool
-* File Metadata Analyzer
-* Dataset Cleaning Pipeline
-* CSV / JSON / Database Converter
-* Local Data Processing Pipeline
-
-### Milestone
-
-**Local Data Processing Pipeline**
+* [ ] CSV Data Analyzer
+* [ ] JSON Data Management System
+* [ ] Log File Analyzer
+* [ ] Directory Organizer
+* [ ] Duplicate File Detector
+* [ ] Automatic Backup Tool
+* [ ] File Metadata Analyzer
+* [ ] Dataset Cleaning Pipeline
+* [ ] CSV / JSON / Database Converter
+* [ ] Local Data Processing Pipeline **(Milestone 04)**
 
 ---
 
-# 05 — Object-Oriented Python
+## 05 — Object-Oriented Python
 
 **Goal:** Learn how to model real-world systems using objects and interacting components.
 
-Topics include:
-
-* Classes
-* Objects
-* Instance attributes
-* Methods
-* Encapsulation
-* Properties
-* Inheritance
-* Composition
-* Polymorphism
-* Dataclasses
-* Domain modeling
-* State and behavior
+Topics include: Classes, Objects, Encapsulation, Properties, Inheritance, Composition, Polymorphism, Dataclasses, Domain modeling.
 
 ### Projects
 
-* Banking Domain Model
-* Library Domain Model
-* E-Commerce Cart System
-* Parking Lot System
-* Hotel Booking System
-* Inventory Management System
-* RPG / Game Domain Engine
-* Workflow / State Machine Engine
-* Business Management System
-
-### Milestone
-
-**Business Management System**
-
-The emphasis is on learning when and why object-oriented design is useful rather than simply creating classes for the sake of using OOP.
+* [ ] Banking Domain Model
+* [ ] Library Domain Model
+* [ ] E-Commerce Cart System
+* [ ] Parking Lot System
+* [ ] Hotel Booking System
+* [ ] Inventory Management System
+* [ ] RPG / Game Domain Engine
+* [ ] Workflow / State Machine Engine
+* [ ] Business Management System **(Milestone 05)**
 
 ---
 
-# 06 — Python Tooling
+## 06 — Python Tooling
 
 **Goal:** Start developing Python projects using professional development practices.
 
-Topics include:
-
-* Virtual environments
-* Package management
-* Imports
-* Modules and packages
-* `pyproject.toml`
-* Type hints
-* Logging
-* Configuration
-* Environment variables
-* CLI tooling
-* Packaging
-* Project organization
+Topics include: Virtual environments, `pyproject.toml`, Type hints, Logging, Configuration, Environment variables, Packaging.
 
 ### Projects
 
-* Reusable Python Utility Package
-* Advanced CLI Tool
-* Environment Configuration System
-* Structured Logging Utility
-* Python Project Generator
-* Custom Command-Line Application
-* Publishable Python Package
-* Python CLI Toolkit
-
-### Milestone
-
-**Own Python CLI Toolkit**
+* [ ] Reusable Python Utility Package
+* [ ] Advanced CLI Tool
+* [ ] Environment Configuration System
+* [ ] Structured Logging Utility
+* [ ] Python Project Generator
+* [ ] Custom Command-Line Application
+* [ ] Publishable Python Package
+* [ ] Own Python CLI Toolkit **(Milestone 06)**
 
 ---
 
-# 07 — Networking and APIs
+## 07 — Networking and APIs
 
 **Goal:** Learn how Python communicates with external systems.
 
-Topics include:
-
-* HTTP
-* Requests
-* REST APIs
-* JSON APIs
-* Authentication
-* Headers
-* Query parameters
-* Pagination
-* Rate limiting
-* API error handling
-* Data extraction
-* Web scraping fundamentals
+Topics include: HTTP, Requests, REST APIs, JSON APIs, Authentication, Query parameters, Rate limiting, Web scraping fundamentals.
 
 ### Projects
 
-* HTTP Client
-* REST API Client
-* GitHub Data Analyzer
-* Weather / Data Aggregator
-* Multi-API Aggregator
-* Authenticated API Client
-* Pagination & Rate-Limited Client
-* Website Metadata Collector
-* Web Data Extraction Pipeline
-* Personal Research Aggregator
-
-### Milestone
-
-**Personal Research Aggregator**
+* [ ] HTTP Client
+* [ ] REST API Client
+* [ ] GitHub Data Analyzer
+* [ ] Weather / Data Aggregator
+* [ ] Multi-API Aggregator
+* [ ] Authenticated API Client
+* [ ] Pagination & Rate-Limited Client
+* [ ] Website Metadata Collector
+* [ ] Web Data Extraction Pipeline
+* [ ] Personal Research Aggregator **(Milestone 07)**
 
 ---
 
-# 08 — Databases and Persistence
+## 08 — Databases and Persistence
 
 **Goal:** Move from file-based storage to proper data persistence.
 
-Progression:
-
-```text
-Files
-  ↓
-SQLite
-  ↓
-SQL
-  ↓
-Relational Data Modeling
-  ↓
-Database Abstraction
-  ↓
-ORM Concepts
-```
-
-Topics include:
-
-* SQLite
-* SQL
-* Tables
-* Relationships
-* Primary and foreign keys
-* CRUD
-* Indexes
-* Transactions
-* Database design
-* ORM concepts
-* Repository patterns
+Topics include: SQLite, SQL, Tables, Relationships, CRUD, Indexes, Transactions, ORM concepts, Repository patterns.
 
 ### Projects
 
-* SQLite Contact Database
-* Expense Database
-* Inventory Database
-* Library Database
-* Student Management Database
-* Database Analytics Tool
-* Data Migration / Import Tool
-* Repository Pattern Project
-* Database-Backed Task Manager
-
-### Milestone
-
-**Database-Backed Task Management System**
+* [ ] SQLite Contact Database
+* [ ] Expense Database
+* [ ] Inventory Database
+* [ ] Library Database
+* [ ] Student Management Database
+* [ ] Database Analytics Tool
+* [ ] Data Migration / Import Tool
+* [ ] Repository Pattern Project
+* [ ] Database-Backed Task Management System **(Milestone 08)**
 
 ---
 
-# 09 — Testing and Code Quality
+## 09 — Testing and Code Quality
 
 **Goal:** Learn how to write Python that is reliable, maintainable, and easier to change.
 
-Topics include:
-
-* Testing principles
-* `pytest`
-* Unit tests
-* Integration tests
-* Fixtures
-* Mocking
-* Assertions
-* Test organization
-* Type hints
-* Debugging
-* Refactoring
-* Error handling
-* Code quality
+Topics include: Testing principles, `pytest`, Unit tests, Integration tests, Fixtures, Mocking, Debugging, Refactoring.
 
 ### Projects
 
-* Test the Expense System
-* Test the Task Manager
-* Validation Library with Tests
-* Refactor an Earlier Project
-* Configuration Library with Tests
-* Unit + Integration Tested Service
-* Production-Quality CLI Application
-
-### Milestone
-
-**Production-Quality CLI Application**
-
-The goal is to take something already built and improve its reliability and maintainability rather than constantly creating new applications.
+* [ ] Test the Expense System
+* [ ] Test the Task Manager
+* [ ] Validation Library with Tests
+* [ ] Refactor an Earlier Project
+* [ ] Configuration Library with Tests
+* [ ] Unit + Integration Tested Service
+* [ ] Production-Quality CLI Application **(Milestone 09)**
 
 ---
 
-# 10 — Backend Development
+## 10 — Backend Development
 
 **Goal:** Learn how to build real Python backend services.
 
-Topics include:
-
-* HTTP APIs
-* FastAPI
-* Routing
-* Request / response models
-* Validation
-* CRUD
-* Authentication
-* Authorization
-* Database integration
-* Service layers
-* Repository layers
-* API testing
-* Background tasks
+Topics include: HTTP APIs, FastAPI, Routing, Validation, CRUD, Authentication, Authorization, Database integration, Service layers.
 
 ### Projects
 
-* Basic REST API
-* CRUD API
-* Database-Backed API
-* Authentication API
-* User Management API
-* File Upload API
-* Pagination / Filtering API
-* API Validation Layer
-* API Testing
-* Background Task API
-* Full Task Management Backend
-
-### Milestone
-
-**Full Task Management Backend**
-
-Target architecture:
-
-```text
-Client
-  ↓
-API Routes
-  ↓
-Service Layer
-  ↓
-Repository / Data Layer
-  ↓
-Database
-```
+* [ ] Basic REST API
+* [ ] CRUD API
+* [ ] Database-Backed API
+* [ ] Authentication API
+* [ ] User Management API
+* [ ] File Upload API
+* [ ] Pagination / Filtering API
+* [ ] API Validation Layer
+* [ ] API Testing
+* [ ] Background Task API
+* [ ] Full Task Management Backend **(Milestone 10)**
 
 ---
 
-# 11 — Advanced Python
+## 11 — Advanced Python
 
 **Goal:** Understand powerful Python language features beyond everyday syntax.
 
-Topics include:
-
-* Iterators
-* Generators
-* `yield`
-* Decorators
-* Closures
-* Context managers
-* Higher-order functions
-* Comprehensions
-* Custom exceptions
-* Advanced typing
-* Protocols
-* Dataclasses
-* Dynamic behavior
-* Plugin architectures
+Topics include: Iterators, Generators, Decorators, Context managers, Custom exceptions, Advanced typing, Protocols, Dynamic behavior.
 
 ### Projects
 
-* Iterator Toolkit
-* Generator-Based File Processor
-* Decorator Framework
-* Caching Decorator
-* Retry / Backoff Decorator
-* Context Manager Library
-* Lazy Data Processing System
-* Event Dispatcher
-* Typed Data Transformation Library
-* Plugin Architecture
-* Mini Python Framework
-
-### Milestone
-
-**Mini Python Framework**
-
-The objective is to understand the language deeply enough that advanced features feel understandable rather than magical.
+* [ ] Iterator Toolkit
+* [ ] Generator-Based File Processor
+* [ ] Decorator Framework
+* [ ] Caching Decorator
+* [ ] Retry / Backoff Decorator
+* [ ] Context Manager Library
+* [ ] Lazy Data Processing System
+* [ ] Event Dispatcher
+* [ ] Typed Data Transformation Library
+* [ ] Plugin Architecture
+* [ ] Mini Python Framework **(Milestone 11)**
 
 ---
 
-# 12 — Concurrency and Async
+## 12 — Concurrency and Async
 
 **Goal:** Understand how Python handles multiple tasks and I/O-heavy workloads.
 
-Topics include:
-
-* Threads
-* Processes
-* `concurrent.futures`
-* Async programming
-* `asyncio`
-* Coroutines
-* `async` / `await`
-* Queues
-* Synchronization
-* Concurrency vs parallelism
-* I/O-bound vs CPU-bound workloads
+Topics include: Threads, Processes, `concurrent.futures`, `asyncio`, Coroutines, Queues, Synchronization.
 
 ### Projects
 
-* Threaded File Processor
-* Concurrent URL Checker
-* Parallel File Hasher
-* Concurrent Downloader
-* Async HTTP Client
-* Async Web Scraper
-* Async Data Collector
-* Producer / Consumer Queue
-* Background Worker System
-* Concurrent Data Processing Pipeline
-
-### Milestone
-
-**Concurrent Data Processing Pipeline**
+* [ ] Threaded File Processor
+* [ ] Concurrent URL Checker
+* [ ] Parallel File Hasher
+* [ ] Concurrent Downloader
+* [ ] Async HTTP Client
+* [ ] Async Web Scraper
+* [ ] Async Data Collector
+* [ ] Producer / Consumer Queue
+* [ ] Background Worker System
+* [ ] Concurrent Data Processing Pipeline **(Milestone 12)**
 
 ---
 
-# 13 — Production Engineering
+## 13 — Production Engineering
 
 **Goal:** Bring together the skills needed to build more realistic software systems.
 
-Topics include:
-
-* Application architecture
-* Background jobs
-* Logging
-* Monitoring
-* Configuration
-* Deployment
-* Docker
-* Reliability
-* Data pipelines
-* Service boundaries
-* API design
-* Performance considerations
+Topics include: Application architecture, Background jobs, Logging, Monitoring, Docker, Reliability, Service boundaries.
 
 ### Projects
 
-* Job Scheduler
-* Background Job Queue
-* File Synchronization Service
-* Monitoring / Health Check Service
-* Log Aggregation System
-* Local Search Engine
-* Document Processing Service
-* Data Synchronization Service
-* Service-to-Service API System
-* Production-Style Backend
+* [ ] Job Scheduler
+* [ ] Background Job Queue
+* [ ] File Synchronization Service
+* [ ] Monitoring / Health Check Service
+* [ ] Log Aggregation System
+* [ ] Local Search Engine
+* [ ] Document Processing Service
+* [ ] Data Synchronization Service
+* [ ] Service-to-Service API System
+* [ ] Production-Style Backend **(Milestone 13)**
 
 ---
 
-# 14 — Capstone Projects
+## 14 — Capstone Projects
 
-At this point, projects are no longer predefined exercises.
+**Goal:** Combine knowledge from multiple previous stages to build substantial original software.
 
-The purpose of this phase is to design and build substantial original software.
-
-Possible directions include:
-
-* AI-powered applications
-* Automation systems
-* Data engineering systems
-* Advanced backend platforms
-* Search systems
-* Computer vision applications
-* Developer tools
-* Real-time applications
-* Distributed systems
-* Productivity platforms
-
-The final projects should combine knowledge from multiple previous stages.
+Possible directions: AI-powered applications, Automation systems, Data engineering systems, Developer tools, Real-time applications, Distributed systems.
 
 ---
 
 # 📈 Difficulty Progression
-
-The repository intentionally follows this progression:
 
 ```text
 Useful Programs
@@ -666,219 +458,71 @@ Production-Style Applications
 Advanced Capstone Projects
 ```
 
-The difficulty should increase gradually.
-
-The objective is **not** to jump from beginner syntax directly to large AI-generated applications.
-
 ---
 
 # 🧩 Project Design Rules
 
-Each project should follow these principles:
-
 ### 1. No random projects
-
 Every project must teach something relevant to the next stage.
 
 ### 2. No unnecessary complexity
-
 A project should only introduce concepts that make sense at that point in the curriculum.
 
 ### 3. Existing concepts should be reused
-
 New projects should reinforce earlier knowledge instead of completely replacing it.
 
 ### 4. Projects should grow in complexity
-
-Early projects may use a single file.
-
-Later projects should naturally evolve into:
-
-```text
-Multiple modules
-        ↓
-Packages
-        ↓
-Tests
-        ↓
-Database
-        ↓
-API
-        ↓
-Background processing
-        ↓
-Production architecture
-```
+Early projects use a single file; later projects evolve into modules, packages, tests, databases, APIs, and production architectures.
 
 ### 5. AI is a tool, not the learner
-
-AI can be used for:
-
-* Explaining concepts
-* Debugging
-* Giving hints
-* Reviewing code
-* Suggesting improvements
-* Explaining unfamiliar libraries
-* Helping investigate errors
-
-AI should not replace understanding of the code being committed.
+AI is used for explanations, debugging, review, and feedback — but not to replace core understanding.
 
 ### 6. Understand before moving forward
-
-The objective is not to complete projects as quickly as possible.
-
-A smaller project that is fully understood is more valuable than a larger project that was mostly generated.
+A smaller project that is fully understood is far more valuable than a larger project that was blindly generated.
 
 ---
 
 # 🔄 Project Workflow
 
-For most projects, the workflow is:
-
 ```text
-Learn
-  ↓
-Plan
-  ↓
-Attempt
-  ↓
-Get stuck
-  ↓
-Research / Ask for help
-  ↓
-Implement
-  ↓
-Test
-  ↓
-Debug
-  ↓
-Extend
-  ↓
-Refactor
-  ↓
-Document
-  ↓
-Commit
+Learn → Plan → Attempt → Get stuck → Research / Ask → Implement → Test → Debug → Extend → Refactor → Document → Commit
 ```
 
 ---
 
-# 📁 Project Structure
+# 🧪 Experiments & 📝 Notes
 
-Small projects may remain simple:
-
-```text
-project-name/
-└── main.py
-```
-
-As projects become more complex:
-
-```text
-project-name/
-│
-├── main.py
-├── modules.py
-├── utils.py
-├── README.md
-└── data/
-```
-
-Advanced projects may eventually use:
-
-```text
-project-name/
-│
-├── src/
-├── tests/
-├── data/
-├── README.md
-├── pyproject.toml
-└── .gitignore
-```
-
-The repository structure itself should evolve as programming knowledge improves.
+- **`_experiments/`**: Temporary playground to experiment with syntax, decorators, generators, asyncio, regex, etc.
+- **`_notes/`**: Personal cheat-sheets and core reference material ([Notes.md](_notes/Notes.md)).
 
 ---
 
-# 🧪 Experiments
+## 🏆 Completed Projects Catalog (18 Completed)
 
-The `_experiments/` directory is for temporary exploration.
-
-Examples:
-
-```text
-_experiments/
-├── decorators/
-├── generators/
-├── asyncio/
-├── sqlite/
-├── regex/
-└── typing/
-```
-
-These do not need to become polished projects.
-
-This is a space to:
-
-* Try unfamiliar syntax
-* Test an idea
-* Break things
-* Compare approaches
-* Explore Python behavior
+| # | Project Name | Phase | Directory Link |
+| :--- | :--- | :--- | :--- |
+| 01 | Personal Finance Analyzer | 01 — Core | [`01-personal-finance-analyzer`](01-python-core/01-personal-finance-analyzer) |
+| 02 | Student Performance Analyzer | 01 — Core | [`02-student-performance-analyzer`](01-python-core/02-student-performance-analyzer) |
+| 03 | Inventory & Billing System | 01 — Core | [`03-inventory-and-billing-system`](01-python-core/03-inventory-and-billing-system) |
+| 04 | CLI Quiz Engine | 01 — Core | [`04-cli-quiz-engine`](01-python-core/04-cli-quiz-engine) |
+| 05 | Bank Account Simulator | 01 — Core | [`05-bank-account-simulator`](01-python-core/05-bank-account-simulator) |
+| 06 | Text Analyzer | 01 — Core | [`06-text-analyzer`](01-python-core/06-text-analyzer) |
+| 07 | Mini Task Manager | 01 — Core | [`07-mini-task-manager`](01-python-core/07-mini-task-manager) |
+| 08 | Terminal Productivity Suite (Milestone 01) | 01 — Core | [`08-terminal-productivity-suite`](01-python-core/08-terminal-productivity-suite) |
+| 09 | Contact Management System | 02 — Data & Logic | [`09-contact-management-system`](02-data-and-logic/09-contact-management-system) |
+| 10 | Inventory Analytics Engine | 02 — Data & Logic | [`10-inventory-analytics-engine`](02-data-and-logic/10-inventory-analytics-engine) |
+| 11 | Expense Categorization Engine | 02 — Data & Logic | [`11-expense-categorization-engine`](02-data-and-logic/11-expense-categorization-engine) |
+| 12 | Document Analyzer | 02 — Data & Logic | [`12-document-analyzer`](02-data-and-logic/12-document-analyzer) |
+| 13 | Student Records & Ranking System | 02 — Data & Logic | [`13-student-records-ranking-system`](02-data-and-logic/13-student-records-ranking-system) |
+| 14 | Event Registration Manager | 02 — Data & Logic | [`14-event-registration-manager`](02-data-and-logic/14-event-registration-manager) |
+| 15 | Graph / Route Explorer | 02 — Data & Logic | [`15-graph-route-explorer`](02-data-and-logic/15-graph-route-explorer) |
+| 16 | Search & Filtering Engine | 02 — Data & Logic | [`16-search-filtering-engine`](02-data-and-logic/16-search-filtering-engine) |
+| 17 | Mini Library Management System (Milestone 02) | 02 — Data & Logic | [`17-mini-library-management-system`](02-data-and-logic/17-mini-library-management-system) |
+| 18 | Modular Expense Tracker | 03 — Functions & Design | [`18-modular-expense-tracker`](03-functions-and-design/18-modular-expense-tracker) |
 
 ---
 
-# 📝 Notes
-
-The `_notes/` directory contains short personal reference material.
-
-Possible notes:
-
-```text
-_notes/
-├── python-basics.md
-├── useful-builtins.md
-├── common-errors.md
-├── git-notes.md
-└── things-i-learned.md
-```
-
-These notes should focus on things worth remembering rather than becoming a copy of the Python documentation.
-
----
-
-# 📊 Progress Tracking
-
-The root README will be updated throughout the journey.
-
-Example:
-
-```text
-## Current Progress
-
-Phase: 01 — Python Core
-
-Completed:
-- [x] Personal Finance Analyzer
-
-In Progress:
-- [ ] Student Performance Analyzer
-
-Next:
-- [ ] Inventory & Billing System
-```
-
-The project list should reflect actual progress rather than planned work that has not yet been completed.
-
----
-
-# 🎯 What Success Looks Like
-
-Success is **not**:
-
-> Completing the maximum number of projects.
+## 🎯 What Success Looks Like
 
 Success is reaching the point where I can receive a new Python project idea and independently:
 
@@ -893,13 +537,9 @@ Success is reaching the point where I can receive a new Python project idea and 
 9. Learn unfamiliar technologies when necessary
 10. Use AI to accelerate development without losing understanding
 
-Eventually, complex Python projects should feel like a combination of concepts I already understand rather than a completely unfamiliar problem.
-
 ---
 
 # 🚀 Final Objective
-
-This repository is intended to document a complete progression:
 
 ```text
 Python Beginner
@@ -914,27 +554,3 @@ Advanced Python Developer
       ↓
 Software Engineer
 ```
-
-The projects are the vehicle for learning.
-
-The actual goal is to develop the **knowledge, problem-solving ability, engineering judgment, and confidence** required to build serious software independently.
-
----
-
-## Current Status
-
-**Phase 01 — Python Core**
-
-### Completed
-
-* [x] Personal Finance Analyzer
-* [x] Student Performance Analyzer
-* [x] Inventory & Billing System
-
-### Next
-
-* [ ] CLI Quiz Engine
-* [ ] Bank Account Simulator
-* [ ] Text Analyzer
-* [ ] Mini Task Manager
-* [ ] Terminal Productivity Suite
